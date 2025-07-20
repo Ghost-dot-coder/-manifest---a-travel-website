@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#main {
+  color: white;
+  background-color: black;
+}
+
+.navbar {
+  margin: 0.5rem auto;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.432);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+}
+@media (max-width: 990px) {
+  .navbar {
+    margin: 0;
+    width: 100%;
+    border-radius: 0px;
+  }
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+#landingPage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#icon {
+  font-family: "Pacifico", cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.items {
+  font-weight: 500;
+}
+.items:hover {
+  text-decoration: underline 0.2rem;
+}
+#effect {
+  position: relative;
+  z-index: 1;
+  padding-top: 100vh;
+}
+/* About -Section */
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #0b0f2b88, #2f4b807b, #6078a458);
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+}
+.qoute{
+    
+}
